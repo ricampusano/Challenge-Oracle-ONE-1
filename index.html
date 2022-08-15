@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Challenge ONE - Lógica de Programación - Encriptador de Texto</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+            </header>
+            <nav>
+            </nav>
+            <section class="section-left">
+                <div class="nivel1-section-left">
+                    <img class="imagen-logo-section-left" src="imagen/Vector.png">    
+                </div>
+                <div class="nivel2-section-left">
+                    <textarea class="texto1-textoPrincipal-logo-section-left" id="input-texto" name="name1" rows="4" cols="20" placeholder="Ingrese el texto aquí"></textarea>                    
+                </div>
+                <div class="nivel3-section-left">
+                    <p class="right-frame1-texto"><img src="imagen/Vector (1).png"> Solo letras minúsculas y sin acentos</p>
+                </div>                 
+                <div class="nivel4-section-left">
+                    <button type="button" id="btn-encriptar" class="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="btn-desEncriptar" class="desEncriptar" onclick="desencriptar()">Desencriptar</button>
+                </div> 
+            </section>
+            <section class="section-right">
+                <section class = "frame5-section-right">
+                    <div class="nivel1-section-right">
+                        <img class="muñeco-imagen-frame5-section-right" src="imagen/Muñeco.png">
+                    </div>
+                    <div class="nivel2-section-right">
+                        <p id="encontrado" class="mensaje-frame5-section-right">Ningún mensaje fue encontrado</p>                      
+                    </div> 
+                    <div class="nivel3-section-right">
+                        <textarea class="texto2-textoSecundario-frame5-section-right" id="texto2" name="name2" rows="4" cols="20" placeholder="Ingrese el texto aquí"></textarea>
+                    </div> 
+                    <div class="nivel4-section-right">
+                        <button type="button" id="btn-copiar" class="copiar" onclick="copiar()">Copiar</button>
+                    </div>                    
+                </section>
+            </section>
+            <footer>
+            </footer>    
+        </div>    
+    </body>
+</html>
